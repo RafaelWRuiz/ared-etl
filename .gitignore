@@ -1,0 +1,50 @@
+# Ambiente virtual
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testes e caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.ipynb_checkpoints/
+
+# Arquivos temporarios do sistema/editor
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos temporarios de Office/Excel
+~$*.xlsx
+~$*.xls
+
+# SQLite e bancos locais
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.sqlitedb
+
+# Saidas geradas do ETL
+saida/**/*.csv
+saida/**/*.xlsx
+saida/**/*.xls
+saida/**/*.parquet
+saida/**/*.zip
+
+# Power BI e artefatos locais
+.pbi/
+*.pbix.autosave
+*.pbit.autosave
